@@ -1,4 +1,4 @@
-version: 1.00.00-{build}
+version: 1.01.00-{build}
 
 configuration:
   - Debug
@@ -36,6 +36,7 @@ deploy:
   artifact: /\/build\/milkytracker.*\.zip/
   draft: false
   prerelease: false
+  overwrite: true
   on:
     branch: appveyor
     #appveyor_repo_tag: true        # deploy on tag push only
